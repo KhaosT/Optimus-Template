@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3006FF189E1E5700850513 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3006FE189E1E5700850513 /* Cocoa.framework */; };
+		CC300709189E1E5700850513 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC300707189E1E5700850513 /* InfoPlist.strings */; };
+		CC30070C189E1E5700850513 /* OptimusDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC30070B189E1E5700850513 /* OptimusDemo.m */; };
+		CC30070E189E1E5700850513 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC30070D189E1E5700850513 /* Icon.png */; };
+		CC300716189E1E8100850513 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CC300715189E1E8100850513 /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC3006FB189E1E5700850513 /* OptimusDemo.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptimusDemo.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3006FE189E1E5700850513 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC300701189E1E5700850513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC300702189E1E5700850513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CC300703189E1E5700850513 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CC300706189E1E5700850513 /* OptimusDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptimusDemo-Info.plist"; sourceTree = "<group>"; };
+		CC300708189E1E5700850513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC30070A189E1E5700850513 /* OptimusDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimusDemo.h; sourceTree = "<group>"; };
+		CC30070B189E1E5700850513 /* OptimusDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptimusDemo.m; sourceTree = "<group>"; };
+		CC30070D189E1E5700850513 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CC30070F189E1E5700850513 /* OptimusDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OptimusDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CC300715189E1E8100850513 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3006F8189E1E5700850513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3006FF189E1E5700850513 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3006F2189E1E5700850513 = {
+			isa = PBXGroup;
+			children = (
+				CC300704189E1E5700850513 /* OptimusDemo */,
+				CC3006FD189E1E5700850513 /* Frameworks */,
+				CC3006FC189E1E5700850513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3006FC189E1E5700850513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3006FB189E1E5700850513 /* OptimusDemo.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3006FD189E1E5700850513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3006FE189E1E5700850513 /* Cocoa.framework */,
+				CC300700189E1E5700850513 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC300700189E1E5700850513 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC300701189E1E5700850513 /* Foundation.framework */,
+				CC300702189E1E5700850513 /* CoreData.framework */,
+				CC300703189E1E5700850513 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CC300704189E1E5700850513 /* OptimusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC30070A189E1E5700850513 /* OptimusDemo.h */,
+				CC30070B189E1E5700850513 /* OptimusDemo.m */,
+				CC300715189E1E8100850513 /* background.png */,
+				CC30070D189E1E5700850513 /* Icon.png */,
+				CC300705189E1E5700850513 /* Supporting Files */,
+			);
+			path = OptimusDemo;
+			sourceTree = "<group>";
+		};
+		CC300705189E1E5700850513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC300706189E1E5700850513 /* OptimusDemo-Info.plist */,
+				CC300707189E1E5700850513 /* InfoPlist.strings */,
+				CC30070F189E1E5700850513 /* OptimusDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3006FA189E1E5700850513 /* OptimusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC300712189E1E5700850513 /* Build configuration list for PBXNativeTarget "OptimusDemo" */;
+			buildPhases = (
+				CC3006F7189E1E5700850513 /* Sources */,
+				CC3006F8189E1E5700850513 /* Frameworks */,
+				CC3006F9189E1E5700850513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimusDemo;
+			productName = OptimusDemo;
+			productReference = CC3006FB189E1E5700850513 /* OptimusDemo.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3006F3189E1E5700850513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Oltica;
+			};
+			buildConfigurationList = CC3006F6189E1E5700850513 /* Build configuration list for PBXProject "OptimusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC3006F2189E1E5700850513;
+			productRefGroup = CC3006FC189E1E5700850513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3006FA189E1E5700850513 /* OptimusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3006F9189E1E5700850513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC30070E189E1E5700850513 /* Icon.png in Resources */,
+				CC300716189E1E8100850513 /* background.png in Resources */,
+				CC300709189E1E5700850513 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3006F7189E1E5700850513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC30070C189E1E5700850513 /* OptimusDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC300707189E1E5700850513 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC300708189E1E5700850513 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC300710189E1E5700850513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC300711189E1E5700850513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC300713189E1E5700850513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusDemo/OptimusDemo-Prefix.pch";
+				INFOPLIST_FILE = "OptimusDemo/OptimusDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		CC300714189E1E5700850513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimusDemo/OptimusDemo-Prefix.pch";
+				INFOPLIST_FILE = "OptimusDemo/OptimusDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3006F6189E1E5700850513 /* Build configuration list for PBXProject "OptimusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC300710189E1E5700850513 /* Debug */,
+				CC300711189E1E5700850513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC300712189E1E5700850513 /* Build configuration list for PBXNativeTarget "OptimusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC300713189E1E5700850513 /* Debug */,
+				CC300714189E1E5700850513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3006F3189E1E5700850513 /* Project object */;
+}
